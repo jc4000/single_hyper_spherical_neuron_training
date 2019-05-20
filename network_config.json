@@ -1,0 +1,9 @@
+{
+   "size":[2,1],
+   "threshold":"0.0001",
+   "epsilon":"0.9",
+   "max_iter":"1500",
+   "status_batch_iters":"50000",
+   "iter_count":"0",
+   "convergence_iter":"1"
+}
