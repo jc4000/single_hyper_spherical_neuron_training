@@ -5,12 +5,11 @@ The description of the theory:
 -------------------------------
 This program is implementation of a hyper-sphere neuron training. 
 The output of the neuron is: S(z_i) = 1 / (1 + exp(Alpha*z_i)), where 
-z_i = (c_0 - x_i0)**2 + ...+(c_n - x_in)**2 - R**2 is the square of the distance of input x_i from the surface of the 
+z_i = (c_0 - x_i0)^2 + ...+(c_n - x_in)^2 - R^2 is the square of the distance of input x_i from the surface of the 
 hyper-sphere, c_j is a component of the center of the hyper-sphere, R is the radius of the hyper-sphere and 
 Alpha > 0 is a scaling factor.
 
-The activation S(z) is mirror reflection of classic sigmoid. S(z) approaches 0 if z approaches infinity and S(z) approaches
-1 if z approaches negative infinity.
+The activation S(z) is mirror reflection of classic sigmoid. S(z) approaches 0 if z approaches infinity and S(z) approaches 1 if z approaches negative infinity.
 ---------------------------------------------
 ---------------------------------
 Instructions to execute
