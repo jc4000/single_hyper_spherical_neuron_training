@@ -3,7 +3,7 @@ For training of a hyper-spherical neuron:
 ------------------------------
 The description of the theory:
 -------------------------------
-A hyper-shperical neuron will make classification decision based on the position of a given input vector being inside of hyper-shpere or outside of the hyper-sphere. As described in the paper, "Circular backpropagation networks for classification" by Sandro Ridella, Stefano Rovetta, and Rodolfo Zunino, 1997.  
+A hyper-shperical neuron will make classification decision based on the position of a given input vector being inside of hyper-shpere or outside of the hyper-sphere. As described in the 1997 paper, "Circular backpropagation networks for classification" by Sandro Ridella, Stefano Rovetta, and Rodolfo Zunino.  
 The output of the neuron is: S(z_i) = 1 / (1 + exp(Alpha*z_i)), where 
 z_i = (c_0 - x_i0)^2 + ...+(c_n - x_in)^2 - R^2 is the square of the distance of input x_i from the surface of the 
 hyper-sphere, c_j is a component of the center of the hyper-sphere, R is the radius of the hyper-sphere and 
