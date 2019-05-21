@@ -1,5 +1,49 @@
 # single_hyper_spherical_neuron_training
 For training of a hyper-spherical neuron:
+--------------------------------------
+Technology and Platform
+--------------------------------------
+Tested on Anaconda Python 3.5 and Python 2.7
+
+For Ubuntu systems, setup a virtual environment py35 by following the steps below in the given sequence:
+
+$cd /tmp
+
+$curl -O https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+
+$bash Anaconda3-5.2.0-Linux-x86_64.sh
+
+Then press enter to continue the license agreement
+Accept the license by typing yes
+Press enter to confirm the default location of the Anaconda3 folder to be created
+Type yes to prepend the bashrc file
+
+$ source ~/.bashrc
+
+$sudo apt-get --yes update
+
+$sudo apt --yes install build-essential 
+
+$sudo apt --yes install qtcreator
+
+$conda create --yes -n py35 python=3.5
+
+$source activate py35
+
+$conda install --yes -c anaconda pip
+
+$pip install --upgrade pip
+
+$conda install --yes -c anaconda pillow
+
+$conda install --yes -c conda-forge matplotlib
+
+$conda install --yes -c anaconda pandas
+
+To deactivate the virtual environment, excute the command
+
+$source deactivate
+
 ------------------------------
 The description of the theory:
 -------------------------------
