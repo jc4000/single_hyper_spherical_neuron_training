@@ -5,7 +5,9 @@ Technology and Platform
 --------------------------------------
 Tested on Anaconda Python 3.5 and Python 2.7
 
-For Ubuntu systems, setup a virtual environment py35 by following the steps below in the given sequence:
+For those who want to directly import the .YML file they ignore the rest of the environment setup instructions and go directly to the part where the command to execute the program is explained.
+
+For deploying Ubuntu systems on EC2 instance, setup a virtual environment py35 by following the steps below in the given sequence:
 
 $cd /tmp
 
